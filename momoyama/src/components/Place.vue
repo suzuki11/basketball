@@ -1,7 +1,7 @@
 <template>
   <section id="place" class="about-wrapper">
     <pageTitle title="Place" />
-    <img alt="Vue logo" src="../assets/place_1.png" class="image_1">
+    <!-- <img alt="Vue logo" src="../assets/place_1.png" class="image_1"> -->
   </section>
 </template>
 
