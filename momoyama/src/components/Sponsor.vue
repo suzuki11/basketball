@@ -1,6 +1,6 @@
 <template>
-  <section id="about" class="about-wrapper">
-    <pageTitle title="About" />
+  <section id="sponsor" class="about-wrapper">
+    <pageTitle title="Sponsor" />
     <div class="box-wrapper">
       <table>
         <tbody>
@@ -25,36 +25,20 @@
 import pageTitle from '@/components/pageTitle'
 
 export default {
-  name: 'HelloWorld',
+  name: 'Sponsor',
   components: {
     pageTitle
   },
   data() {
     return {
       contacts: [
-        { key: 'Name', value: '鈴木 脩平 (Shuhei Suzuki)', url: '' },
-        { key: 'University', value: '龍谷大学', url: '' },
+        { key: 'Gold', value: '京都信用金庫', url: '' },
+        { key: 'Silver', value: 'softdevice', url: '' },
         {
-          key: 'instagram',
-          value: 'momoyama_basketball_school',
-          url: 'https://www.instagram.com/momoyama_basketball_school/?hl=ja'
-        },
-        {
-          key: 'facebook',
-          value: 'Shuhei Suzuki',
-          url: 'https://www.facebook.com/shuhei.suzuki.79?ref=br_rs'
-        },
-        {
-          key: 'blog',
-          value: 'みやこびとの日記',
-          url: 'https://miyakobito.hatenablog.com/'
-        },
-        {
-          key: 'Chatwork',
-          value: 'shuhei4141',
+          key: 'Partner',
+          value: '紫野高校',
           url: ''
-        },
-        { key: 'Mail', value: 'shu41357[@]gmail.com', url: '' }
+        }
       ]
     }
   }
